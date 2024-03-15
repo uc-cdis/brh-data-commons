@@ -1,6 +1,6 @@
 
 
-This is the Gen3.2 Frontend for BRH
+This is the Gen3.2 web frontend for BRH 
 
 
 ## Getting Started
