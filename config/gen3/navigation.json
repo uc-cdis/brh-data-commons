@@ -47,7 +47,10 @@
         "icon": "gen3:profile",
         "href": "/Profile",
         "name": "Profile",
-        "tooltip": "Create API keys for programmatic data access, and review your authorization privileges to datasets and services."
+        "tooltip": "Create API keys for programmatic data access, and review your authorization privileges to datasets and services.",
+        "classNames": {
+          "root": "flex flex-col flex-nowrap px-1 py-2 pt-4 items-center hover:text-accent opacity-80 hover:opacity-100 pr-10"
+        }
       }
     ]
   },
