@@ -1,6 +1,6 @@
 
 
-This is the base REPOSITORY for Gen3.2 data commons.
+This is the Gen3.2 Frontend for BRH
 
 
 ## Getting Started
