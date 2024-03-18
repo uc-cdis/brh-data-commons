@@ -4,7 +4,7 @@
     "expandableRows": true
   },
   "features": {
-    "dataFetchFunction": "AggMDSAllLocal",
+    "dataFetchFunction": "MDSAllLocal",
     "aiSearch" : true,
     "advSearchFilters": {
       "enabled": false,
