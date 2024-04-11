@@ -51,6 +51,7 @@ COPY ./.env.development ./
 COPY ./.env.production ./
 COPY ./tailwind.config.js ./
 COPY ./postcss.config.js ./
+COPY ./start.sh ./
 RUN npm ci
 RUN npm install \
     "@swc/core" \
