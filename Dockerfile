@@ -57,4 +57,4 @@ RUN npm install \
     "@napi-rs/magic-string"
 RUN npm run build
 ENV PORT=80
-CMD ["npm", "run", "start"]
+CMD bash ./start.sh
