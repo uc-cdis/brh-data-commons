@@ -10,23 +10,27 @@
         "icon": "gen3:query",
         "href": "https://brh.data-commons.org/discovery",
         "name": "Discovery",
+        "classNames" : {
+          "root": "border-opacity-50 border-blue",
+          "button": "hover:border-white"
+        },
         "tooltip": "Use free-text search and tags to rapidly find relevant studies, discover new datasets across multiple resources, and easily export selected data files to the analysis workspace."
       },
       {
         "icon": "gen3:aisearch",
         "href": "https://brh.data-commons.org/ff/Discovery",
-        "name": "Search",
-        "tooltip": "Use free-text search and tags to rapidly find relevant studies, discover new datasets across multiple resources, and easily export selected data files to the analysis workspace."
+        "name": "AI Search",
+        "tooltip": "Use AI Based search to find relevant studies using a chat-like interface."
       },
       {
         "name": "Workspace",
-        "link": "https://brh.data-commons.org/workspace",
+        "href": "https://brh.data-commons.org/workspace",
         "icon": "gen3:workspace",
         "tooltip": "Gen3 workspaces are secure data analysis environments in the cloud that can access data from one or more data resources."
       },
       {
         "name": "Example Analysis",
-        "link": "https://brh.data-commons.org/resource-browser",
+        "href": "https://brh.data-commons.org/resource-browser",
         "icon": "gen3:bar-chart",
         "tooltip": "Learn how to use Jupyter Notebooks to explore and visualize data discovered in the Biomedical Research Hub by running a static tutorial notebook, or use one of these examples as a launching point for your own custom analysis."
       },
@@ -44,27 +48,26 @@
         "link": "https://uc-cdis.github.io/BRH-documentation/",
         "name": "Documentation",
         "classNames": {
-          "root": "border-base-light",
-          "label": "text-white",
-          "button": "hover:border-white"
+          "root": "border-blue border-opacity-50",
+          "label": "text-white font-bold text-sm",
+          "button": "hover:border-white mx-4"
         }
       },
       {
         "link": "brhsupport@datacommons.io",
         "name": "Email Support",
         "classNames": {
-          "root": "border-base-light",
-          "label": "text-white",
-          "button": "hover:border-white"
+          "root": "border-base-lighter ",
+          "label": "text-white font-bold text-sm",
+          "button": "hover:border-white mx-4"
         }
       },
       {
         "link": "https://uc-cdis.github.io/platform-citation/brh-cite/",
         "name": "Cite BRH",
         "classNames": {
-          "root": "border-base-light",
-          "label": "text-white",
-          "button": "hover:border-white"
+          "label": "text-white font-bold text-sm",
+          "button": "hover:border-white mx-4 mr-[64px]"
         }
       }
     ],
