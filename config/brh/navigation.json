@@ -1,14 +1,14 @@
 {
   "navigation": {
     "logo": {
-      "src": "/images/brh/logo.png",
+      "src": "/ff/images/brh/logo.png",
       "height": 256,
       "href": "/Discovery"
     },
     "items": [
       {
         "icon": "gen3:query",
-        "href": "https://brh.data-commons.org/discovery",
+        "href": "/discovery",
         "name": "Discovery",
         "classNames" : {
           "root": "border-opacity-50 border-blue",
@@ -18,25 +18,25 @@
       },
       {
         "icon": "gen3:aisearch",
-        "href": "https://brh.data-commons.org/ff/Discovery",
+        "href": "/ff/AISearch",
         "name": "AI Search",
         "tooltip": "Use AI Based search to find relevant studies using a chat-like interface."
       },
       {
         "name": "Workspace",
-        "href": "https://brh.data-commons.org/workspace",
+        "href": "/workspace",
         "icon": "gen3:workspace",
         "tooltip": "Gen3 workspaces are secure data analysis environments in the cloud that can access data from one or more data resources."
       },
       {
         "name": "Example Analysis",
-        "href": "https://brh.data-commons.org/resource-browser",
+        "href": "/resource-browser",
         "icon": "gen3:bar-chart",
         "tooltip": "Learn how to use Jupyter Notebooks to explore and visualize data discovered in the Biomedical Research Hub by running a static tutorial notebook, or use one of these examples as a launching point for your own custom analysis."
       },
       {
         "icon": "gen3:profile",
-        "href": "https://brh.data-commons.org/profile",
+        "href": "/profile",
         "name": "Profile",
         "tooltip": "Create API keys for programmatic data access, and review your authorization privileges to datasets and services."
       }
