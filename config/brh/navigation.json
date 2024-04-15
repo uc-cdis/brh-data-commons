@@ -3,12 +3,12 @@
     "logo": {
       "src": "/ff/images/brh/logo.png",
       "height": 256,
-      "href": "/Discovery"
+      "href": "https://brhstaging.data-commons.org/"
     },
     "items": [
       {
         "icon": "gen3:query",
-        "href": "https://brh.data-commons.org/discovery",
+        "href": "https://brhstaging.data-commons.org/discovery",
         "name": "Discovery",
         "classNames" : {
           "root": "border-opacity-50 border-blue",
@@ -24,19 +24,19 @@
       },
       {
         "name": "Workspace",
-        "href": "https://brh.data-commons.org/workspace",
+        "href": "https://brhstaging.data-commons.org/workspace",
         "icon": "gen3:workspace",
         "tooltip": "Gen3 workspaces are secure data analysis environments in the cloud that can access data from one or more data resources."
       },
       {
         "name": "Example Analysis",
-        "href": "https://brh.data-commons.org/resource-browser",
+        "href": "https://brhstaging.data-commons.org/resource-browser",
         "icon": "gen3:bar-chart",
         "tooltip": "Learn how to use Jupyter Notebooks to explore and visualize data discovered in the Biomedical Research Hub by running a static tutorial notebook, or use one of these examples as a launching point for your own custom analysis."
       },
       {
         "icon": "gen3:profile",
-        "href": "https://brh.data-commons.org/profile",
+        "href": "https://brhstaging.data-commons.org/profile",
         "name": "Profile",
         "tooltip": "Create API keys for programmatic data access, and review your authorization privileges to datasets and services."
       }
