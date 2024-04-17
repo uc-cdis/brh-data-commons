@@ -19,7 +19,7 @@
       {
         "icon": "gen3:aisearch",
         "href": "/AISearch",
-        "name": "AI Search",
+        "name": "AI Search - beta",
         "tooltip": "Use AI Based search to find relevant studies using a chat-like interface."
       },
       {
@@ -36,7 +36,7 @@
       },
       {
         "icon": "gen3:profile",
-        "href": "https://brhstaging.data-commons.org/profile",
+        "href": "https://brhstaging.data-commons.org/identity",
         "name": "Profile",
         "tooltip": "Create API keys for programmatic data access, and review your authorization privileges to datasets and services."
       }
