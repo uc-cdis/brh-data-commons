@@ -19,7 +19,7 @@
       {
         "icon": "gen3:aisearch",
         "href": "/AISearch",
-        "name": "AI Search - beta",
+        "name": "AI Search - Beta",
         "tooltip": "Use AI Based search to find relevant studies using a chat-like interface."
       },
       {
