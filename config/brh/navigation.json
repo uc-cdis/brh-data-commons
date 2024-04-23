@@ -1,24 +1,44 @@
 {
   "navigation": {
     "logo": {
-    "src": "/images/brh/logo.png",
-      "height":256,
-    "href": "/Discovery"
+      "src": "/ff/images/brh/logo.png",
+      "height": 256,
+      "href": "https://brhstaging.data-commons.org/"
     },
-    "items": [{
-      "icon": "gen3:query",
-      "href": "/Discovery",
-      "name": "Discovery",
-      "tooltip": "Discover Data"
-    },
+    "items": [
+      {
+        "icon": "gen3:query",
+        "href": "https://brhstaging.data-commons.org/discovery",
+        "name": "Discovery",
+        "classNames" : {
+          "root": "border-opacity-50 border-blue",
+          "button": "hover:border-white"
+        },
+        "tooltip": "Use free-text search and tags to rapidly find relevant studies, discover new datasets across multiple resources, and easily export selected data files to the analysis workspace."
+      },
+      {
+        "icon": "gen3:aisearch",
+        "href": "/AISearch",
+        "name": "AI Search - Beta",
+        "tooltip": "Use AI Based search to find relevant studies using a chat-like interface."
+      },
+      {
+        "name": "Workspace",
+        "href": "https://brhstaging.data-commons.org/workspace",
+        "icon": "gen3:workspace",
+        "tooltip": "Gen3 workspaces are secure data analysis environments in the cloud that can access data from one or more data resources."
+      },
+      {
+        "name": "Example Analysis",
+        "href": "https://brhstaging.data-commons.org/resource-browser",
+        "icon": "gen3:bar-chart",
+        "tooltip": "Learn how to use Jupyter Notebooks to explore and visualize data discovered in the Biomedical Research Hub by running a static tutorial notebook, or use one of these examples as a launching point for your own custom analysis."
+      },
       {
         "icon": "gen3:profile",
-        "href": "/Profile",
+        "href": "https://brhstaging.data-commons.org/identity",
         "name": "Profile",
-        "tooltip": "Create API keys for programmatic data access, and review your authorization privileges to datasets and services.",
-        "classNames": {
-          "root": "flex flex-col flex-nowrap px-1 py-2 pt-4 items-center hover:text-accent opacity-80 hover:opacity-100 pr-10"
-        }
+        "tooltip": "Create API keys for programmatic data access, and review your authorization privileges to datasets and services."
       }
     ]
   },
@@ -26,20 +46,34 @@
     "items": [
       {
         "link": "https://uc-cdis.github.io/BRH-documentation/",
-        "name": "Documentation"
+        "name": "Documentation",
+        "classNames": {
+          "root": "border-blue border-opacity-50",
+          "label": "text-white font-bold text-sm",
+          "button": "hover:border-white mx-4"
+        }
       },
       {
         "link": "brhsupport@datacommons.io",
-        "name": "Email Support"
+        "name": "Email Support",
+        "classNames": {
+          "root": "border-base-lighter ",
+          "label": "text-white font-bold text-sm",
+          "button": "hover:border-white mx-4"
+        }
       },
       {
         "link": "https://uc-cdis.github.io/platform-citation/brh-cite/",
-        "name": "Cite BRH"
+        "name": "Cite BRH",
+        "classNames": {
+          "label": "text-white font-bold text-sm",
+          "button": "hover:border-white mx-4 mr-[64px]"
+        }
       }
     ],
-    "showLogin": true,
+    "showLogin": false,
     "classNames": {
-      "root": "flex justify-end items-center align-middle w-100 h-10 bg-secondary"
+      "root": "bg-primary"
     }
   }
 }
