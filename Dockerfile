@@ -22,12 +22,11 @@ WORKDIR /gen3
 
 RUN addgroup --system --gid 1001 nextjs && \
     adduser --system --uid 1001 nextjs
-
-COPY --from=builder /gen3/config ./config
-COPY --from=builder /gen3/public ./public
-COPY --from=builder /gen3/.next/standalone ./
-COPY --from=builder /gen3/.next/static ./.next/static
-
 USER nextjs
+COPY --from=builder --chown=nextjs:nextjs /gen3/config ./config
+COPY --from=builder --chown=nextjs:nextjs /gen3/public ./public
+COPY --from=builder --chown=nextjs:nextjs /gen3/.next/standalone ./
+COPY --from=builder --chown=nextjs:nextjs /gen3/.next/static ./.next/static
+
 ENV PORT=3000
 CMD ["node", "server.js"]
