@@ -2,7 +2,7 @@ import App, { AppProps, AppContext, AppInitialProps } from 'next/app';
 import React, { useEffect, useRef } from 'react';
 
 import { Faro, FaroErrorBoundary, withFaroProfiler } from '@grafana/faro-react';
-import { initGrafanaFaro } from '../lib/Grafana/grafana';
+import { initGrafanaFaro } from '@/lib/Grafana/grafana';
 
 import {
   Gen3Provider,
@@ -11,7 +11,6 @@ import {
   RegisteredIcons,
   Fonts,
   SessionConfiguration,
-  // registerCohortDiscoveryApp,
   registerCohortDiversityApp,
   registerCohortBuilderDefaultPreviewRenderers,
   registerExplorerDefaultCellRenderers,
@@ -27,7 +26,7 @@ import '@fontsource/poppins';
 
 import { setDRSHostnames } from '@gen3/core';
 import drsHostnames from '../../config/drsHostnames.json';
-import { loadContent } from '../lib/content/loadContent';
+import { loadContent } from '@/lib/content/loadContent';
 
 if (typeof window !== 'undefined' && process.env.NODE_ENV !== 'production') {
   // eslint-disable-next-line @typescript-eslint/no-var-requires, @typescript-eslint/no-require-imports

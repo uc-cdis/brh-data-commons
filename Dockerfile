@@ -1,3 +1,5 @@
+# docker build -t brhff .
+# docker run -p 3000:3000 -it brhff
 # Build stage
 FROM node:20-slim AS builder
 
