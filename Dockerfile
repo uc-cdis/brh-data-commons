@@ -1,7 +1,7 @@
 # Build stage
 FROM node:20-slim AS builder
 
-ARG NEXT_PUBLIC_PORTAL_BASENAME=/ff
+ARG NEXT_PUBLIC_PORTAL_BASENAME
 
 WORKDIR /gen3
 
