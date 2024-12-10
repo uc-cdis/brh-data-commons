@@ -29,4 +29,4 @@ COPY --from=builder --chown=nextjs:nextjs /gen3/.next/standalone ./
 COPY --from=builder --chown=nextjs:nextjs /gen3/.next/static ./.next/static
 
 ENV PORT=3000
-CMD ["node", "server.js"]
+CMD bash ./start.sh
