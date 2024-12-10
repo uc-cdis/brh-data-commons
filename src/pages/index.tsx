@@ -1,13 +1,7 @@
 import {
-  DiscoveryPage,
-  DiscoveryPageGetServerSideProps as getServerSideProps,
+  LandingPage,
+  LandingPageGetStaticProps as getStaticProps,
 } from '@gen3/frontend';
-import { registerDiscoveryCustomCellRenderers } from '@/lib/Discovery/CustomCellRenderers';
-import { registerDiscoveryStudyPreviewRenderers } from '@/lib/Discovery/CustomRowRenderers';
 
-registerDiscoveryCustomCellRenderers();
-registerDiscoveryStudyPreviewRenderers();
-
-export default DiscoveryPage;
-
-export { getServerSideProps };
+export default LandingPage;
+export { getStaticProps };
