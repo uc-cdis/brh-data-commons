@@ -9,7 +9,7 @@
       "src": "/images/brh/logo.png",
       "height": 256,
       "width": 320,
-      "href": "/Discovery"
+      "href": "/"
     },
     "items": [
       {
@@ -72,7 +72,8 @@
     "classNames": {
       "root": "border-base-light text-primary-contrast-dark",
       "label": "text-primary-contrast",
-      "button": "hover:border-white"
+      "button": "hover:border-white",
+      "login" : "hover:border-white text-white"
     }
   }
 }

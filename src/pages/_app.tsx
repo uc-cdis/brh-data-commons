@@ -2,7 +2,6 @@ import App, { AppProps, AppContext, AppInitialProps } from 'next/app';
 import React, { useEffect, useRef } from 'react';
 
 import { Faro, FaroErrorBoundary, withFaroProfiler } from '@grafana/faro-react';
-
 import { initGrafanaFaro } from '../lib/Grafana/grafana';
 
 import {

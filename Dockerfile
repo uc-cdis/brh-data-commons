@@ -1,6 +1,8 @@
 # Build stage
 FROM node:20-slim AS builder
 
+ARG NEXT_PUBLIC_PORTAL_BASENAME=/ff
+
 WORKDIR /gen3
 
 COPY ./package.json ./package-lock.json ./next.config.js ./tsconfig.json ./.env.development  ./tailwind.config.js ./postcss.config.js  ./
@@ -15,7 +17,6 @@ RUN npm install @swc/core @napi-rs/magic-string && \
 FROM node:20-slim AS runner
 
 WORKDIR /gen3
-ENV PORT=3000
 
 RUN addgroup --system --gid 1001 nextjs && \
     adduser --system --uid 1001 nextjs
