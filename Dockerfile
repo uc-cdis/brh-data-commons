@@ -6,7 +6,7 @@
 FROM quay.io/cdis/ubuntu:20.04 AS build
 
 ARG NODE_VERSION=20
-ARG NEXT_PUBLIC_PORTAL_BASENAME=/ff
+ARG NEXT_PUBLIC_PORTAL_BASENAME
 
 ENV NPM_CONFIG_PREFIX=/home/node/.npm-global
 ENV PATH=$PATH:/home/node/.npm-global/bin
