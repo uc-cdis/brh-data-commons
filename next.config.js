@@ -22,7 +22,6 @@ const nextConfig = {
   output: 'standalone',
   reactStrictMode: true,
   pageExtensions: ['mdx', 'md', 'jsx', 'js', 'tsx', 'ts'],
-  basePath: process.env.NEXT_PUBLIC_PORTAL_BASENAME || '',
   transpilePackages: ['@gen3/core', '@gen3/frontend'],
   webpack: (config) => {
     config.infrastructureLogging = {
