@@ -2,4 +2,4 @@
 
 set -e
 echo "starting server"
-node server.js
+npm run start
